@@ -93,9 +93,40 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
+.middle-content-about, .lower-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    /* border-bottom: 1px dashed black;  Put dashes under each box instead */
+}
+
+.middle-content-about h2 {
     padding: 0 2%;
     margin-bottom: 0;
+}
+
+.middle-content-about .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.middle-content-about .text-container h2 {
+    padding: 10px 0;
+    margin-bottom: 0;
+}
+
+.middle-content-about .text-container p {
+    padding: 10px 0;
+}
+
+.middle-content-about .text-container button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
 }
 
 .middle-content .boxes {
@@ -149,9 +180,6 @@ footer nav a {
 }
 
 /****** New for the Sprint Challenge ****/
-* {
-    border: 1px solid grey;
-}
 
 header {
     display: flex;
@@ -164,7 +192,6 @@ header nav {
     justify-content: space-around;
     align-items: flex-end;
     width: 100%;
-    border: 1px solid red;
 }
 
 header nav a {
