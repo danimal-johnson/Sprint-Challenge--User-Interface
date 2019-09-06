@@ -78,7 +78,10 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.top-content .full-width-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -144,3 +147,43 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/****** New for the Sprint Challenge ****/
+* {
+    border: 1px solid grey;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+    border: 1px solid red;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    color: white;
+    background-color: black;
+}
+
+#box1 {background-color: teal;}
+#box2 {background-color: gold;}
+#box3 {background-color: cadetblue;}
+#box4 {background-color: coral;}
+#box5 {background-color: crimson;}
+#box6 {background-color: forestgreen;}
+#box7 {background-color: darkorchid;}
+#box8 {background-color: hotpink;}
+#box9 {background-color: indigo;}
+#box10 {background-color: dodgerblue;}
